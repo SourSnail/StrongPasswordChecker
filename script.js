@@ -1,7 +1,7 @@
 function checkPassword() {
     const passwordInput = document.getElementById("password").value;
     const errorElement = document.getElementById("error");
-
+//checking criteria for password inputted
     if (passwordInput.length < 8) {
         showError("Password must be 8 characters or more.");
     } else if (!/\d/.test(passwordInput)) {
