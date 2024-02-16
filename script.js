@@ -10,7 +10,7 @@ function checkPassword() {
         showError("Password must include at least one capital letter.");
     } else {
         errorElement.innerText = "";
-        alert(`Strong password detected. Password set to ${passwordInput}`);
+        alert(`Strong password detected. Password set to ${passwordInput}!`);
     }
 }
 
